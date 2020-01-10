@@ -1,19 +1,16 @@
-@font-face {
-	font-family: bankgothic;
-	src: url('../fonts/bankgothic.ttf');
-}
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
 
-@font-face {
-	font-family: pcdown;
-	src: url('../fonts/pdown.ttf');
+* {
+	font-family: 'Poppins', sans-serif;
 }
 
 .menu {
-	font-family: bankgothic;
 	min-width: 400px;
 	color: #fff;
-	box-shadow: 0px 0px 50px 0px #000;
 	position: absolute;
+	background: #1c1c1c;
+	border-radius: 3px;
+	z-index: 99999;
 }
 
 .menu.align-left {
@@ -67,10 +64,27 @@
 }
 
 .menu .head {
-	background-color: #506be6;
 	text-align: center;
 	height: 40px;
 	line-height: 40px;
+	font-size: 32px;
+	font-weight: bold;
+	display: flex;
+	align-items: space-between;
+	justify-content: center;
+	flex-direction: row;
+	color: #cfd0ff;
+}
+
+.menu .head .hr {
+	flex: 1;
+	height: 2px;
+	border-radius: 2px;
+	background-color: #cfd0ff;
+}
+
+.menu .head span {
+	flex: 2;
 }
 
 .menu .menu-items {
@@ -79,16 +93,17 @@
 }
 
 .menu .menu-items .menu-item {
-	height: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	display: block;
-	background-color: #f1f1f1;
-	box-shadow: inset 1px 0px 0px 1px #b8b8b8;
-	height: 32px;
 	line-height: 32px;
-	color: #3A3A3A;
+	font-size: 21px;
+	color: white;
 	text-align: center;
+	border-top: 1px solid #666666;
+	border-bottom: 1px solid #666666;
 }
 
 .menu .menu-items .menu-item.selected {
-	background-color: #d0d0d0;
+	background-color: #616161;
 }

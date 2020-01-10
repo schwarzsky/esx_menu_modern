@@ -65,7 +65,8 @@
 
 .menu .head {
 	text-align: center;
-	height: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	line-height: 40px;
 	font-size: 32px;
 	font-weight: bold;

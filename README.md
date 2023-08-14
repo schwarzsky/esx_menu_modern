@@ -1,7 +1,2 @@
 # esx_menu_modern
-This repository is included with modern styling for FiveM's esx_menu_default.
-
-# Suggestions
-If you have any suggestions, you can share with us anywhere you want.
-
-Contact Discord: schwarzsky#0167
+Modern styling for FiveM's esx_menu which most of servers in Turkey using as a copy last time i checked. I don't suggest using as a script in present.
